@@ -1,0 +1,136 @@
+body {margin:0;padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(25,25,25);
+    display: grid;
+    place-items: center;
+    
+}
+.text{
+    width: 1170px;
+    height: 39px;
+    
+}
+i {
+    align-self: center;
+    color: rgb(112,112,112);
+    font-size:15px;
+    
+    
+}
+.nav-left {
+    float: left;
+    margin-top: 11px;
+}
+.nav-right {
+    float: right;
+    margin-top: 5px;
+}
+#verticle {
+   
+    font-size: 24px;
+    color: rgb(112,112,112);
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+span i {
+    color: rgb(112,112,112);
+    margin-right: 11px;
+}
+
+.head {
+    color: rgb(112,112,112);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#banner {
+    position: absolute;
+    width:100%;
+    background-image: url("img.jpg");
+    background-position: center;
+    left:0px;
+    top:40px;
+    z-index:-1;
+    height: 799px;
+    display: grid;
+    place-items: center;
+}
+
+/*img {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    z-index: -1;
+    height: 799px;
+    width: 100%;
+}*/
+.text1{
+    position: absolute;
+    top:20px;
+    width: 1170px; 
+    height: 799px;
+}
+#pasco {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.menu-right {
+    float: right;
+}
+.verticle2 {
+    border-left: 1px solid rgb(112,112,112) ;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+}
+.nav {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 620;
+    margin-top: 10px;
+}
+.drop {
+    margin: 10px 29px 10px 6px;
+    color: white;
+    font-size: 14px;
+}
+.center {
+    width: 1170px;
+    position: absolute;
+    top: 410px;
+    left: 585px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+}
+.big {
+    font-size: 42px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+button {
+    background-color: rgb(48, 63, 159);
+    border-style: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
+}
+
+
+
