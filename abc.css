@@ -105,11 +105,17 @@ span i {
     color: white;
     font-size: 14px;
 }
-.center {
+.horizontal-line {
+    margin-top: 11px;
+    margin-left: -14px;
+    border-bottom: 4px solid rgb(255, 64, 129);
+    width:80px;
+}
+.banner-center {
     width: 1170px;
     position: absolute;
-    top: 410px;
-    left: 585px;
+    top: 368px;
+    left: 586px;
     transform: translate(-50%,-50%);
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -129,7 +135,16 @@ button {
     color: #ffffff;
     border-radius: 25px;
     margin-top: 1.75rem;
-    margin-bottom: 5rem;
+}
+
+.banner-bottom {
+    position: absolute;
+    top: 646px;
+    left: 585px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 
