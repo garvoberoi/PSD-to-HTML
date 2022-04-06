@@ -1,7 +1,7 @@
-body {margin:0;padding:0;
+body {
+    margin:0;padding:0;
     box-sizing: border-box;
 }
-
 .container {
     height: 40px;
     width: 100%;
@@ -28,29 +28,26 @@ i {
 }
 .nav-right {
     float: right;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 #verticle {
-   
-    font-size: 24px;
-    color: rgb(112,112,112);
-    margin-left: 8px;
-    margin-right: 8px;
+    border-left: 1px solid rgb(112,112,112);
+    height: 31px;
+    margin-left: 13px;
+    margin-right: 15px;
+    margin-top: 11px;
 
 }
 span i {
     color: rgb(112,112,112);
     margin-right: 11px;
 }
-
 .head {
     color: rgb(112,112,112);
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
-
 #banner {
     position: absolute;
     width:100%;
@@ -63,7 +60,6 @@ span i {
     display: grid;
     place-items: center;
 }
-
 .left-arrow {
     position: absolute;
     top: 372px;
@@ -80,11 +76,15 @@ span i {
 }
 .text1{
     position: absolute;
-    top:20px;
+    top: 0px;
     width: 1170px; 
     height: 799px;
 }
+.banner-top {
+    margin-top: 20px;
+}
 #pasco {
+    display: inline-block;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -92,35 +92,45 @@ span i {
     letter-spacing: 2px;
 }
 .menu-right {
+    display: inline-block;
     float: right;
 }
 .verticle2 {
+    display: inline-block;
     border-left: 1px solid rgb(112,112,112) ;
-    height: 50px;
-    margin: 0px 5px 0px 5px;
+    height: 30px;
+    margin-bottom: -9px;
+    
+}
+#middle {
+    display:inline-block;
+    position: absolute;
+    top: 26px;
+    right: 135px;
 }
 .nav {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: white;
     font-weight: 620;
-    margin-top: 10px;
+    letter-spacing: 1px;
 }
 .drop {
-    margin: 10px 29px 10px 6px;
+    margin: 0px 23px 0px 6px;
     color: white;
     font-size: 14px;
 }
 .horizontal-line {
-    margin-top: 11px;
-    margin-left: -14px;
+    position: absolute;
+    top: 65px;
+    left: 203px;
     border-bottom: 4px solid rgb(255, 64, 129);
     width:80px;
 }
 .banner-center {
     width: 1170px;
     position: absolute;
-    top: 373px;
+    top: 390px;
     left: 586px;
     transform: translate(-50%,-50%);
     color: white;
@@ -142,7 +152,6 @@ button {
     border-radius: 25px;
     margin-top: 1.75rem;
 }
-
 .banner-bottom {
     position: absolute;
     top: 646px;
@@ -152,7 +161,6 @@ button {
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
-
 #henry {
     margin-top: 18px;
     font-size: 14px;
@@ -161,7 +169,6 @@ button {
     font-weight: bold; 
     letter-spacing:1px;
 }
-
 .date-comment {
     font-size: 12px;
     font-family:'Montserrat', sans-serif;
