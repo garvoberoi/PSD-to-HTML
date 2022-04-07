@@ -15,32 +15,33 @@ body {
     height: 39px;
     
 }
-i {
-    align-self: center;
-    color: rgb(112,112,112);
-    font-size:15px;
-    
-    
-}
 .nav-left {
     float: left;
     margin-top: 11px;
+}
+.nav-left-icon {
+    align-self: center;
+    color: rgb(112,112,112);
+    font-size:15px;
+    margin-right: 11px;
 }
 .nav-right {
     float: right;
     margin-top: 10px;
 }
 #verticle {
+    display: inline-block;
     border-left: 1px solid rgb(112,112,112);
-    height: 31px;
-    margin-left: 13px;
-    margin-right: 15px;
-    margin-top: 11px;
-
+    height: 20px;
+    margin: 1px 10px -5px 12px;
 }
-span i {
+.nav-right-icon1 {
     color: rgb(112,112,112);
-    margin-right: 11px;
+    margin-right: 3px;
+}
+.nav-right-icon2{
+    color: rgb(112,112,112);
+    font-size: 13px;
 }
 .head {
     color: rgb(112,112,112);
@@ -49,13 +50,10 @@ span i {
     font-weight: bold;
 }
 #banner {
-    position: absolute;
     width:100%;
     background-image: url("img.jpg");
     background-position: center;
     background-size: cover;
-    left:0px;
-    top:40px;
     z-index:-1;
     height: 799px;
     display: grid;
@@ -76,75 +74,109 @@ span i {
     font-size: 26px;
 }
 .text1{
-    position: absolute;
-    top: 0px;
     width: 1170px; 
     height: 799px;
 }
 .banner-top {
     margin-top: 20px;
 }
-#pasco {
+#top-left {
     display: inline-block;
+    float: left;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
 }
-.menu-right {
-    display: inline-block;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.right {
     float: right;
 }
+#top-right-icon1 {
+    color: white;
+    font-size: 17px;
+    margin: 5px 12px 0px 8px;
+}
+#top-right-icon2 {
+    color: white;
+    font-size: 20px;
+    margin: 5px 9px 0px 8px;
+}
+#top-right-icon3 {
+    color: white;
+    font-size: 17px;
+    margin: 5px 15px 0px 12px;
+}
+/*
+*/
 .verticle2 {
     display: inline-block;
     border-left: 1px solid rgb(112,112,112) ;
-    height: 30px;
-    margin-bottom: -9px;
+    height: 31px;
+    margin-bottom: -8px;
     
 }
 #middle {
-    display:inline-block;
-    position: absolute;
-    top: 26px;
-    right: 135px;
+    display: inline-block;
+    margin-top: 6px;
+    float: center;
+}
+.li {
+    display: inline;
+    margin-left: 22px;
+    color: white;
+    font-size: 14px;
 }
 .nav {
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: white;
     font-weight: 620;
     letter-spacing: 1px;
 }
 .drop {
-    margin: 0px 23px 0px 6px;
-    color: white;
-    font-size: 14px;
+    
+    margin-left: 6px;
 }
-.horizontal-line {
-    position: absolute;
-    top: 65px;
-    left: 203px;
+#horizontal {
+    display: inline;
+    margin-left: 109px;
+    padding-left: 14px;
     border-bottom: 4px solid rgb(255, 64, 129);
-    width:80px;
+    padding-bottom: 22px;
 }
 .banner-center {
     width: 1170px;
-    position: absolute;
-    top: 391px;
-    left: 586px;
-    transform: translate(-50%,-50%);
+    margin-top: 239px;
     color: white;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 
 }
-.big {
+.inspiration {
+    color: rgb(182, 182, 182);
+    font-size:20px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.big1 {
     font-size: 42px;
     font-weight: 900;
     margin-top: 5px;
+    margin-left:11px;
+    margin-bottom: -10px;
 }
-button {
+.big2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 2px;
+    margin-left: 4px;
+    word-spacing: -5px;
+}
+.read-more {
     background-color: rgb(48, 63, 159);
     border-style: none;
     padding: 12px 27px;
@@ -155,10 +187,7 @@ button {
     letter-spacing: 1px;
 }
 .banner-bottom {
-    position: absolute;
-    top: 663px;
-    left: 585px;
-    transform: translate(-50%,-50%);
+    margin-top: 78px;
     color: white;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -172,12 +201,37 @@ button {
     letter-spacing:1px;
     font-stretch: expanded;
 }
-.date-comment {
+.date{
     font-size: 12px;
     font-family:'Montserrat', sans-serif;
     color: rgb(190,190,190);
     letter-spacing:1px;
     font-weight:550;
+    margin-top: 9px;
 }
-
-
+.comment{
+    font-size: 12px;
+    font-family:'Montserrat', sans-serif;
+    color: rgb(190,190,190);
+    letter-spacing:1px;
+    font-weight:550;
+    margin-top: 30px;
+}
+/*
+.sort-bar {
+    position: absolute;
+    top: 839px;
+    width:100%;
+    height: 60px;
+    background-color: rgb(116, 15, 15);
+    display: grid;
+    place-items: center;
+    
+}
+.sort-bar-center {
+    width: 1170px;
+    height: 60px;
+    background-color: rgb(222, 109, 109);
+    
+}
+*/
