@@ -53,6 +53,7 @@ span i {
     width:100%;
     background-image: url("img.jpg");
     background-position: center;
+    background-size: cover;
     left:0px;
     top:40px;
     z-index:-1;
