@@ -430,3 +430,7 @@ margin-right: 3px;*/
     letter-spacing:1px;
     font-stretch: expanded;
 }
+.menu-3dots {
+    margin: auto 21px auto auto;
+    font-size: 20px;
+}
