@@ -2,6 +2,9 @@ body {
     margin:0;padding:0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 .container {
     height: 40px;
     width: 100%;
@@ -29,6 +32,9 @@ body {
     float: right;
     margin-top: 10px;
 }
+.container-right {
+    display:inline-block;
+}
 #verticle {
     display: inline-block;
     border-left: 1px solid rgb(112,112,112);
@@ -50,12 +56,9 @@ body {
     font-weight: bold;
 }
 #banner {
-    width:100%;
     background-image: url("img.jpg");
     background-position: center;
     background-size: cover;
-    z-index:-1;
-    height: 800px;
     display: grid;
     place-items: center;
 }
@@ -75,13 +78,12 @@ body {
 }
 .text1{
     width: 1170px; 
-    height: 799px;
+    height: 800px;
 }
 .banner-top {
     margin-top: 19px;
 }
 #top-left {
-    display: inline-block;
     float: left;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -141,7 +143,6 @@ body {
     margin-left: 6px;
 }
 #horizontal {
-    display: inline;
     margin-left: 109px;
     padding-left: 14px;
     border-bottom: 4px solid rgb(255, 64, 129);
@@ -322,9 +323,13 @@ margin-right: 3px;*/
     float: right;
 }
 
-.card1{
-    height: 621px;
+.card1 {
     width: 100%;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;;
 }
 
 .card1-image{
@@ -375,4 +380,53 @@ margin-right: 3px;*/
 .like-icon1{
     margin-left:17px;
     font-size: 16px;
+}
+.things10 {
+    height:92px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.things101{
+    margin: 17px 0px 0px 20px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.things102 {
+    margin:5px 0px 0px 20px;
+    color: black;
+    font-family: 'Open Sans';
+    font-size:16px;
+    line-height: 1.7;
+    letter-spacing: 0.6px;
+}
+.author {
+   
+    display: flex;
+}
+.author-photo {
+    margin: 20px 11px 20px 20px;
+    background-image: url('img4.png');
+    width: 50px;
+    height: 50px;
+}
+.author-text{
+    margin-top: 27px;
+    font-family: "Montserrat", sans-serif;
+}
+.author-text-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing:1px;
+    font-stretch: expanded;
+}
+.author-text-dt {
+    font-size: 12px;
+    color: rgb(170,170,170);
+    letter-spacing:1px;
+    font-stretch: expanded;
 }
