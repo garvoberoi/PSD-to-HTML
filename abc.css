@@ -325,21 +325,20 @@ margin-right: 3px;*/
 
 .card1 {
     width: 100%;
-    border-left: 1px solid rgb(221, 221, 221);
-    border-right: 1px solid rgb(221, 221, 221);
-    border-bottom: 1px solid rgb(221, 221, 221);
+    background-color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
 }
 
 .card1-image{
     background-image: url("img7.jpg");
     background-position: center;
     height: 420px;
-    width: 100%;
+    overflow: auto;
 }
 
-#play-button{
+.play-button{
     margin-top: 185px;
     margin-left: 387px;
 }
@@ -384,8 +383,6 @@ margin-right: 3px;*/
 .things10 {
     height:92px;
     border-bottom: 1px solid rgb(221, 221, 221);
-    border-left: 1px solid rgb(221, 221, 221);
-    border-right: 1px solid rgb(221, 221, 221);
 }
 .things101{
     margin: 17px 0px 0px 20px;
@@ -404,7 +401,6 @@ margin-right: 3px;*/
     letter-spacing: 0.6px;
 }
 .author {
-   
     display: flex;
 }
 .author-photo {
@@ -429,8 +425,97 @@ margin-right: 3px;*/
     color: rgb(170,170,170);
     letter-spacing:1px;
     font-stretch: expanded;
+    font-weight: 600;
 }
 .menu-3dots {
     margin: auto 21px auto auto;
     font-size: 20px;
+    color: black;
+}
+
+.card2 {
+    margin-top: 22px;
+    margin-left: 1px;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.card2-image {
+    background-image: url("img5.jpg");
+    width: 260px;
+}
+.card2-play-button {
+    margin-top: 65px;
+    margin-left: 110px;
+}
+
+.card2-inspiration {
+    width: 100%;
+    margin-top: 30px;
+}
+.card2-content {
+    width: 560px;
+    background-color: white;
+}
+.card2-text {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding-bottom: 12px;
+}
+.card2-text1{
+    margin: 11px 0px 0px 19px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.card2-text2{
+    margin:7px 0px 0px 19px;
+    color: black;
+    font-family: 'Open Sans';
+    font-size:14px;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
+.card2-author {
+    display: flex;
+}
+.card2-author-photo {
+    margin: 10px 11px 10px 20px;
+    background-image: url('img4.png');
+    width: 50px;
+    height: 50px;
+}
+.card2-author-text {
+    margin-top: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+.card3 {
+    margin-top: 22px;
+    margin-left: 1px;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.card3-image {
+    background-image: url("img6.jpg");
+    background-position: center;
+    height: 165px;
+    width: 260px;
+}
+.card3-inspiration{
+    width: 100%;
+    margin-top: 135px;
+}
+
+.card4 {
+    margin-top: 22px;
+    margin-left: 1px;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.card4-image {
+    background-image: url("img8.jpg");
+    background-position: center;
+    height: 165px;
+    width: 260px;
 }
