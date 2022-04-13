@@ -56,7 +56,7 @@ a {
     font-weight: bold;
 }
 #banner {
-    background-image: url("img.jpg");
+    background-image: url("images/img.jpg");
     background-position: center;
     background-size: cover;
     display: grid;
@@ -332,7 +332,7 @@ margin-right: 3px;*/
 }
 
 .card1-image{
-    background-image: url("img7.jpg");
+    background-image: url("images/img7.jpg");
     background-position: center;
     height: 420px;
     overflow: auto;
@@ -405,7 +405,7 @@ margin-right: 3px;*/
 }
 .author-photo {
     margin: 20px 11px 20px 20px;
-    background-image: url('img4.png');
+    background-image: url('images/img4.png');
     width: 50px;
     height: 50px;
 }
@@ -438,10 +438,11 @@ margin-right: 3px;*/
     margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
 .card2-image {
-    background-image: url("img5.jpg");
+    background-image: url("images/img5.jpg");
     width: 260px;
 }
 .card2-play-button {
@@ -459,10 +460,10 @@ margin-right: 3px;*/
 }
 .card2-text {
     border-bottom: 1px solid rgb(221,221,221);
-    padding-bottom: 12px;
+    padding-bottom: 14px;
 }
 .card2-text1{
-    margin: 11px 0px 0px 19px;
+    margin: 11px 0px 0px 18px;
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size:16px;
@@ -470,7 +471,7 @@ margin-right: 3px;*/
     letter-spacing: 0.7px;
 }
 .card2-text2{
-    margin:7px 0px 0px 19px;
+    margin:5px 0px 0px 18px;
     color: black;
     font-family: 'Open Sans';
     font-size:14px;
@@ -482,7 +483,9 @@ margin-right: 3px;*/
 }
 .card2-author-photo {
     margin: 10px 11px 10px 20px;
-    background-image: url('img4.png');
+    background-image: url('images/img20.png');
+    background-position: center;
+    border-radius: 25px;
     width: 50px;
     height: 50px;
 }
@@ -491,13 +494,14 @@ margin-right: 3px;*/
     font-family: "Montserrat", sans-serif;
 }
 .card3 {
-    margin-top: 22px;
+    margin-top: 21px;
     margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    border-radius:5px;
 }
 .card3-image {
-    background-image: url("img6.jpg");
+    background-image: url("images/img6.jpg");
     background-position: center;
     height: 165px;
     width: 260px;
@@ -506,16 +510,165 @@ margin-right: 3px;*/
     width: 100%;
     margin-top: 135px;
 }
-
+.card3-author-photo {
+    margin: 10px 11px 10px 20px;
+    background-image: url('images/img19.png');
+    background-position: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
 .card4 {
-    margin-top: 22px;
+    margin-top: 21px;
     margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 .card4-image {
-    background-image: url("img8.jpg");
+    background-image: url("images/img8.jpg");
     background-position: center;
     height: 165px;
     width: 260px;
+}
+.card4-author-photo {
+    margin: 10px 11px 10px 20px;
+    background-image: url('images/img4.png');
+    background-position: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+.card567 {
+    margin-top:21px;
+    margin-left: 1px;
+    display:flex;
+    flex-direction: row;
+}
+.card5 {
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin-right:20px;
+}
+.card5-image {
+    background-image: url("images/img3.jpg");
+    width: 260px;
+    height: 160px;
+    overflow: auto;
+}
+.card5-text {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(221,221,221);
+}
+.card5-text1 {
+    margin: 12px 0px 0px 18px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+    line-height: 1.7;
+}
+
+.card5-text2 {
+    margin:5px 0px 0px 18px;
+    color: black;
+    font-family: 'Open Sans';
+    font-size:14px;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
+
+.card5-play-button {
+    margin-left: 111px;
+    margin-top: 60px;
+}
+
+.card5-inspiration {
+    width: 100%;
+    margin-top: 35px;
+}
+.card5-author-photo {
+    margin: 15px 9px 20px 20px;
+    background-image: url('images/img20.png');
+    background-position: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+.card5-author-text {
+    margin-top: 23px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card6{
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin-right: 20px;
+}
+.card6-image {
+    background-image: url("images/img9.jpg");
+    width: 260px;
+    height: 160px;
+    overflow: auto;
+}
+.card6-author-photo {
+    margin: 15px 9px 20px 20px;
+    background-image: url('images/img19.png');
+    background-position: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+.card7 {
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin-right: 20px;
+}
+.card7-image {
+    background-image: url("images/img10.jpg");
+    width: 260px;
+    height: 160px;
+    overflow: auto;
+}
+.card7-arrow-left {
+    background-image: url("images/img11.jpg");
+    height: 36px;
+    width:36px;
+    margin-top: 59px;
+    float: left;
+    margin-left:10px;
+}
+
+.card7-arrow-right {
+    background-image: url("images/img13.jpg");
+    height: 36px;
+    width:36px;
+    margin-top:59px;
+    float: right;
+    margin-right:10px;
+    
+}
+.card7-lifestyle {
+    width: 100%;
+    margin-top: 135px;
+}
+
+.card7-like-icon1{
+    margin-left:10px;
+    font-size: 16px;
+}
+.card7-author-photo {
+    margin: 15px 9px 20px 20px;
+    background-image: url('images/img4.png');
+    background-position: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
 }
