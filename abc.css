@@ -51,7 +51,7 @@ a {
 .nav-right-icon2{
     color: rgb(112,112,112);
     font-size: 13px;
-}/**/
+}
 .head {
     color: rgb(112,112,112);
     font-size: 12px;
@@ -84,7 +84,7 @@ a {
 }
 .banner-top {
     margin-top: 19px;
-}/**/
+}
 #top-left {
     float: left;
     color: white;
@@ -115,8 +115,6 @@ a {
     font-size: 17px;
     margin: 5px 15px 0px 12px;
 }
-/*
-*/
 .verticle2 {
     display: inline-block;
     border-left: 1px solid rgb(112,112,112) ;
@@ -134,7 +132,6 @@ a {
     color: white;
     font-size: 13px;
 }
-/**/
 .nav {
     font-weight: 620;
     letter-spacing: 1px;
@@ -149,7 +146,6 @@ a {
     border-bottom: 4px solid rgb(255, 64, 129);
     padding-bottom: 23px;
 }
-/**/
 .banner-center {
     width: 1170px;
     margin-top: 238px;
@@ -188,12 +184,12 @@ a {
     border-radius: 25px;
     margin-top: 30px;
     letter-spacing: 0.8px;
-}/**/
+}
 .banner-bottom {
     margin-top: 79px;
     color: white;
     text-align: center;
-}/**/
+}
 #henry {
     margin-top: 17px;
     margin-right: 0px;
@@ -201,7 +197,7 @@ a {
     color: white;
     font-weight: 700; 
     letter-spacing:0.7px;
-}/**/
+}
 .henry-dt {
     font-size: 12px;
     color: rgb(190,190,190);
@@ -211,7 +207,7 @@ a {
 }
 .henry-date{
     margin-left: 3px;
-}/**/
+}
 .henry-time{
     margin-left: 7px;
 }
@@ -230,7 +226,7 @@ a {
     font-size: 17px;
     margin-right:3px;
     vertical-align: sub;
-}/**/
+}
 .like {
     display: inline-block;
     font-size: 12px;
@@ -243,8 +239,6 @@ a {
 .like-icon {
     font-size: 14px;
 }
-
-/*font-size: 16px;margin-right: 3px; color: rgb(190,190,190);*/
 .sort-bar {
     width:100%;
     height: 60px;
@@ -259,20 +253,19 @@ a {
     height: 60px;
     background-color: rgb(255, 255, 255);    
 }
-
 .sort{
     display:inline-block;
     color: black;
     font-size: 12px;
     font-weight: bold;
     margin-left: -1px;
-}/**/
+}
 .filter-list{
     display: inline-block;
     list-style-type: none;
     margin: 15px 0px 0px 0px;
     padding: 0;
-}/**/
+}
 .filter-list li {
     display:inline-block;
 }
@@ -297,7 +290,7 @@ a {
     border-radius: 25px;
     padding: 6px 28px 6px 26px;
     font-weight: 600;
-}/**/
+}
 .main-body {
     width:100%;
     height: 2337px;
@@ -305,25 +298,22 @@ a {
     display: grid;
     place-items: center;
 }
-
 .text2 {
     width: 1171px;
     height: 2307px;
     margin-top: 30px;
 }
-
 .main-left {
     width: 822px;
     height: 100%;
     float: left;
 }
-
 .main-right {
     width: 310px;
     height: 100%;
     float: right;
+    background-color: white;
 }
-
 .card1 {
     width: 100%;
     background-color: white;
@@ -331,7 +321,6 @@ a {
     border-bottom-right-radius: 5px;;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
 }
-
 .card1-image{
     background-image: url("images/img7.jpg");
     background-position: center;
@@ -340,13 +329,11 @@ a {
     overflow: auto;
     position:relative;
 }
-
 .play-button{
     position: absolute;
     top: 185px;
     left: 387px;
 }
-/**/
 .lifestyle-left {
     position: absolute;
     top: 390px;
@@ -355,7 +342,6 @@ a {
     font-size:12px;
     font-weight: 500;
 }
-/**/
 .lifestyle-right {
     position: absolute;
     right: 20px;
@@ -383,7 +369,7 @@ a {
 .things10 {
     height:93px;
     border-bottom: 1px solid rgb(221, 221, 221);
-}/**/
+}
 .things101{
     margin: 15px 0px 0px 20px;
     color: black;
@@ -407,7 +393,7 @@ a {
     background-image: url('images/img4.png');
     width: 50px;
     height: 50px;
-}/**/
+}
 .author-text{
     margin-top: 25px;
 }
@@ -445,7 +431,7 @@ a {
     position: absolute;
     top: 64px;
     left: 110px;
-}/**/
+}
 .card2-inspiration-left{
     position: absolute;
     top: 134px;
@@ -453,7 +439,7 @@ a {
     color: white;
     font-size:12px;
 
-}/**/
+}
 .card2-inspiration-right{
     position: absolute;
     right: 20px;
@@ -478,7 +464,7 @@ a {
 .card2-text {
     border-bottom: 1px solid rgb(221,221,221);
     padding-bottom: 14px;
-}/**/
+}
 .card2-text1{
     margin: 10px 0px 0px 18px;
     color: black;
@@ -504,7 +490,7 @@ a {
     border-radius: 25px;
     width: 50px;
     height: 50px;
-}/**/
+}
 .card2-author-text {
     margin-top: 16px;
 }
@@ -586,7 +572,7 @@ a {
 .card5-text {
     padding-bottom: 24px;
     border-bottom: 1px solid rgb(221,221,221);
-}/**/
+}
 .card5-text1 {
     margin: 11px 0px 0px 19px;
     color: black;
@@ -595,7 +581,6 @@ a {
     letter-spacing: 0.3px;
     line-height: 1.7;
 }
-
 .card5-text2 {
     margin:8px 0px 0px 19px;
     color: black;
@@ -604,7 +589,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.6px;
 }
-
 .card5-author-photo {
     margin: 15px 9px 20px 20px;
     background-image: url('images/img20.png');
@@ -612,11 +596,10 @@ a {
     border-radius: 25px;
     width: 50px;
     height: 50px;
-}/**/
+}
 .card5-author-text {
     margin-top: 20px;
 }
-
 .card6{
     width: 260px;
     background-color: white;
@@ -661,7 +644,6 @@ a {
     float: left;
     margin-left:10px;
 }
-
 .card7-arrow-right {
     background-image: url("images/img13.jpg");
     height: 36px;
@@ -688,14 +670,12 @@ a {
     width: 50px;
     height: 50px;
 }
-
 .card89 {
     margin-top:21px;
     margin-left: 1px;
     display:flex;
     flex-direction: row;
 }
-
 .card8 {
     width: 400px;
     background-color: white;
@@ -709,7 +689,7 @@ a {
     height: 300px;
     overflow: auto;
     position: relative;
-}/**/
+}
 .card8-inspiration-left {
     position: absolute;
     top: 268px;
@@ -717,7 +697,7 @@ a {
     color: white;
     font-size:12px;
 
-}/**/
+}
 .card8-inspiration-right {
     position: absolute;
     right: 21px;
@@ -728,7 +708,7 @@ a {
 .card8-text {
     padding-bottom:15px;
     border-bottom: 1px solid rgb(221, 221, 221);
-}/**/
+}
 .card8-text1{
     margin: 14px 0px 0px 20px;
     color: black;
@@ -768,7 +748,7 @@ a {
     height: 300px;
     overflow: auto;
     position: relative;
-}/**/
+}
 .card9-text1 {
     margin: 14px 0px 0px 20px;
     color: rgb(63,81,181);
@@ -803,4 +783,126 @@ a {
     border-radius: 25px;
     font-size: 20px;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.search-container{
+    margin: 24px 0px 0px 42px;
+    height: 33px;
+    border-radius: 30px;
+    padding: 5px 0px 4px 8px;
+    background-color: rgb(245,245,245);
+    display: flex;
+    justify-content: right;
+    width: 260px;
+}
+.search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 212px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Open Sans';
+}
+.search-btn {
+    background-color: #ff4081;
+    padding: 9px;
+    font-size:16px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 4px;
+}
+.categories-list {
+    margin: 27px 0px 0px 39px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(63,81,181);
+    letter-spacing: 0.5px;
+}
+.categories-list hr{
+    border: 0.5px solid rgb(174, 195, 255);
+    margin: 6px 0px 0px 0px;
+}
+.categories-list table {
+    border-collapse: collapse;
+    width: 273px;
+    margin-top: 3px;
+}
+.categories-list table tr{
+    border-bottom: 1.5px solid #ebeae9;
+}
+.categories-list table tr.last{
+    border-bottom: none;
+}
+.cat-name {
+    float: left;
+    font-family: 'Open Sans';
+    font-size:14;
+    color: black;
+    padding: 9px 0px 10px 0px;
+    font-weight: 600;
+}
+.cat-no {
+    float: right;
+    font-family: 'Open Sans';
+    font-size:14;
+    font-weight: 800;
+    color: black;
+    padding: 9px 0px 10px 0px; 
+}
+.subscribe {
+    margin: 30px 0px 0px 41px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(63,81,181);
+    letter-spacing: 0.5px;
+}
+.subscribe hr {
+    border-top: 0.5px solid rgb(174, 195, 255);
+    margin: 6px 0px -3px 0px;
+}
+.subscribe-name {
+    font-size:16px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color:black;
+    margin: 12px 0px 11px -1px;
+}
+.subscribe-input{
+    width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding:10px 0px 11px 15px;
+    color: rgb(182, 182, 182);
+    border:none;
+    border: 1px solid rgb(224,224,224);
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+.subscribe-btn {
+    width: 270px;
+    background-color:rgb(63,81,181);
+    color:white;
+    margin-top:10px;
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.subscribe .or {
+    width: 270px;
+    text-align: center; 
+    border-bottom: 2px solid rgb(117, 117, 117); 
+    line-height: 0;
+    margin: 23px 0 20px;
+}
+.subscribe .or span {
+    background:#fff; 
+    padding:0 7px; 
+    font-size: 17px;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
