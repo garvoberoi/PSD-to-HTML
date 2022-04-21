@@ -307,12 +307,16 @@ a {
     width: 822px;
     height: 100%;
     float: left;
+    
 }
 .main-right {
-    width: 310px;
-    height: 100%;
+    position: absolute;
+    left:965px;
     float: right;
+    width: 100%;
+    height: 2309px;
     background-color: white;
+    border-top-left-radius: 5px;
 }
 .card1 {
     width: 100%;
@@ -821,6 +825,7 @@ a {
 .categories-list hr{
     border: 0.5px solid rgb(174, 195, 255);
     margin: 6px 0px 0px 0px;
+    width: 270px;
 }
 .categories-list table {
     border-collapse: collapse;
@@ -838,7 +843,7 @@ a {
     font-family: 'Open Sans';
     font-size:14;
     color: black;
-    padding: 9px 0px 10px 0px;
+    padding: 8px 0px 9px 0px;
     font-weight: 600;
 }
 .cat-no {
@@ -859,6 +864,7 @@ a {
 .subscribe hr {
     border-top: 0.5px solid rgb(174, 195, 255);
     margin: 6px 0px -3px 0px;
+    width: 270px;
 }
 .subscribe-name {
     font-size:16px;
@@ -914,35 +920,32 @@ a {
     color: white;
     font-size:16px;
     border-radius: 25px;
+    margin-left:4px;
 }
-.subscribe-icons .f{
+.f{
     padding: 10px 13px;
     background-color: #3b5999;
+    margin-left: 0px;
 }
-.subscribe-icons .tw {
+.tw {
     padding: 10px 10px;
     background-color: #55acee;
-    margin-left: 4px;
 }
-.subscribe-icons .vk {
+.vk {
     padding: 10px 11px;
     background-color: #4c75a3;
-    margin-left: 4px;
 }
-.subscribe-icons .p{
+.p{
     padding: 10px 12px;
     background-color: #ff2e56;
-    margin-left: 4px;
 }
-.subscribe-icons .t{
+.t{
     padding: 10px 13px;
     background-color: #34465d;
-    margin-left: 4px;
 }
-.subscribe-icons .d{
+.d{
     padding: 10px 9px;
     background-color: #ea4c89;
-    margin-left: 4px;
 }
 .tabpost {
     margin: 45px 0px 0px 39px; 
@@ -955,6 +958,7 @@ a {
 .tabpost hr{
     border: 0.5px solid rgb(174, 195, 255);
     margin: 6px 0px 0px 2px;
+    width: 270px;
 }
 .rp-post {
     margin: 18px 0px 6px 3px;
@@ -973,6 +977,8 @@ a {
     padding: 12px;
     width: 50%;
     text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
 }
 .post-filter {
     background-color: #3f51b5;
@@ -997,6 +1003,7 @@ a {
 }
 .tabpost-card1 .content .text {
     font-family: 'Open Sans';
+    color: black;
     font-size: 14px;
     font-weight: 700;
     width: 155px;
@@ -1016,6 +1023,7 @@ a {
 .tabpost .card-hr {
     border: 0.5px solid #ebeae9;
     margin-top: 15px;
+    width: 270px;
 }
 .tags{
     margin: 47px 0px 0px 40px; 
@@ -1026,6 +1034,7 @@ a {
 .tags hr{
     border: 0.5px solid rgb(174, 195, 255);
     margin: 6px 0px 0px 2px;
+    width: 270px;
 }
 .tag-container{
     width: 270px;
@@ -1052,12 +1061,13 @@ a {
 }
 .f-img2{
     background-image: url("images/img22.jpg");
-    height:200px;
+    height:199px;
     width: 100%;
     background-size: cover;
     background-position: center;
     display: grid;
     place-items: center;
+    border-bottom: 1px solid #363639;
 }
 .f-img2-text{
     width:1170px;
@@ -1078,7 +1088,7 @@ a {
     font-size: 16px;
     padding:10px 18px 12px;
     border: 1px solid #747577;
-    margin: 0px 26px 0px 32px;
+    margin: 0px 27px 0px 32px;
     vertical-align: super;
 }
 .f-subscribe{
@@ -1091,4 +1101,203 @@ a {
     letter-spacing: 0.5px;
     font-weight: 500;
     vertical-align: super;
+}
+.f-container{
+    height: 540px;
+    width: 100%;
+    background-color: #212121;
+    display: grid;
+    place-items: center;
+}
+.f-container-text{
+    width:1170px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+.f-container-text .pages {
+    margin-top: 45px;
+    margin-left: -1px;
+}
+.pages-widget{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+.f-home-con{
+    margin: 6px 0px 0px 1px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    width: 268px;
+}
+.f-home{
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    color: #bdbdbd;
+    padding: 12px 0px 11px 14px;
+    letter-spacing: 0.5px;
+}
+.fh-plus{
+    float: right;
+    vertical-align: middle;
+    color: #bdbdbd;
+    font-size: 19px;
+    padding:12px 13px 11px 0px;
+}
+#pages-d{
+    border-bottom: 1px solid #757575;
+    margin-bottom: 5px;
+}
+.f-pages-d{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 7px 0px 10px 12px;
+    color: #747474;
+}
+.f-home-con #about {
+    padding-bottom: 18px;
+}
+.f-container-text .twitter {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.twitter-widget{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+.tw-card {
+    margin-top: 15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #3c3c3c;
+}
+.tw-icon {
+    font-size: 20px;
+    color: #55acee;
+    margin: 0px 17px 10px 9px;
+}
+.tw-card .tw-card1{
+    display:flex;
+    flex-direction: row;
+}
+.tw-card .tw-card1 #tw-text{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: 500;
+    margin: -4px 0px 8px 0px;
+    line-height: 1.5;
+}
+.tw-card .tw-card2{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: #909090;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+#time-ago{
+    margin-right: 9px;
+}
+#tw-arrow {
+    margin-top: 2px;
+    margin-right:-2px;
+}
+.tw-link {
+    margin-left:12px;
+    text-decoration: underline;
+    color: #909090;
+}
+.tw-card3{
+    border-bottom: none;
+}
+.social-widget{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin:14px 0px -12px 0px;
+}
+.social-icons {
+    margin-top:27px;
+    margin-left: -2px;
+}
+.social-icons i {
+    color: white;
+    font-size:16px;
+    border-radius: 25px;
+    margin-right:6px;
+}
+.f-container-text .flickr {
+    margin-top: 45px;
+    margin-left: 28px;
+}
+.flickr-widget{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin-bottom: 27px;
+}
+.flickr-con{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 8px;
+    margin-left: 2px;
+}
+.f-container-text .news {
+    margin-top: 45px;
+    margin-left: 29px;
+    width:270px;
+}
+.news-widget{
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin-bottom: 27px;
+    margin-left: -1px;
+}
+.news-input {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 270px;
+    color: #909090;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    padding:13px 14px 10px;
+    border: 1px solid #757575;
+    margin-bottom: 10px;
+}
+.news-input-area {
+    width: 270px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #909090;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    padding:12px 14px;
+    border: 1px solid #757575;
+    margin-bottom: 10px;
+}
+.news-subscribe-btn{
+    width: 270px;
+    background-color: #303030;
+    color:white;
+    padding: 13px 0px 13px 2px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
 }
