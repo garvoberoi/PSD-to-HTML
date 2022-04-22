@@ -312,8 +312,9 @@ a {
 .main-right {
     position: absolute;
     left:965px;
+    width:30%;
     float: right;
-    width: 100%;
+    /*width: 312px;*/
     height: 2309px;
     background-color: white;
     border-top-left-radius: 5px;
