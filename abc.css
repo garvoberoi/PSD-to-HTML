@@ -1203,7 +1203,7 @@ a {
     font-size: 12px;
     color: #909090;
     font-weight: 500;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
 }
 #time-ago{
     margin-right: 9px;
@@ -1300,4 +1300,62 @@ a {
     border-radius: 5px;
     font-weight: 500;
     letter-spacing: 0.8px;
+}
+.f-nav{
+    height:80px;
+    width:100%;
+    background-color: #303030;
+    display: grid;
+    place-items: center;
+}
+.f-nav-text{
+    height: 100%;
+    width:1170px;
+    display: flex;
+    align-items:center;
+}
+.f-nav-list {
+    list-style-type: none;
+    margin: -2px 0px 0px -2px;
+    padding: 0;
+}
+.f-list-elem {
+    display: inline;
+    margin-right: 37px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.f-nav-right {
+    float: right;
+}
+.f-search-container{
+    margin: -1px 66px 0px 137px;
+    height: 33px;
+    border-radius: 30px;
+    border: 1px solid #7f7f7f;
+    display: inline-flex;
+    justify-content: right;
+    width: 218px;
+}
+.f-search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    font-weight: 500;
+    width: 166px;
+    color: #7f7f7f;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.f-search-btn {
+    padding: 9px;
+    font-size:14px;
+    border-radius: 30px;
+    color: #7f7f7f;
+    margin-right: 4px;
+}
+.f-eng {
+    display: inline-block;
 }
