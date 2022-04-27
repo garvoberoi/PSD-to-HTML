@@ -10,7 +10,6 @@ a {
     text-decoration: none;
 }
 .container {
-    height: 40px;
     width: 100%;
     background-color: rgb(25,25,25);
     display: grid;
@@ -18,13 +17,11 @@ a {
     
 }
 .text{
-    width: 1170px;
-    height: 39px;
-    
+    width: 1170px;   
 }
 .nav-left {
     float: left;
-    margin-top: 11px;
+    padding: 11px 0px 9px 0px;
 }
 .nav-left-icon {
     align-self: center;
@@ -81,7 +78,6 @@ a {
 }
 .text1{
     width: 1170px; 
-    height: 800px;
 }
 .banner-top {
     margin-top: 19px;
@@ -152,7 +148,6 @@ a {
     margin-top: 238px;
     color: white;
     text-align: center;
-
 }
 .inspiration {
     color: rgb(182, 182, 182);
@@ -174,7 +169,6 @@ a {
     margin-top: 0px;
     margin-left: 10px;
     letter-spacing: 0.8;
-    
 }
 .read-more {
     background-color: rgb(48, 63, 159);
@@ -187,9 +181,10 @@ a {
     letter-spacing: 0.8px;
 }
 .banner-bottom {
-    margin-top: 79px;
+    margin-top: 80px;
     color: white;
     text-align: center;
+    padding-bottom: 66px;
 }
 #henry {
     margin-top: 17px;
@@ -242,16 +237,14 @@ a {
 }
 .sort-bar {
     width:100%;
-    height: 60px;
     background-color: rgb(255, 255, 255);
     display: grid;
     place-items: center;
-    border-bottom: 1px solid rgb(221, 221, 221);
+    border-bottom: 2px solid rgb(221, 221, 221);
     
 }
 .sort-bar-center {
     width: 1170px;
-    height: 60px;
     background-color: rgb(255, 255, 255);    
 }
 .sort{
@@ -264,7 +257,7 @@ a {
 .filter-list{
     display: inline-block;
     list-style-type: none;
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 14px 0px;
     padding: 0;
 }
 .filter-list li {
@@ -294,20 +287,17 @@ a {
 }
 .main-body {
     width:100%;
-    height: 2340px;
     background-color: rgb(245,245,245);
     display: grid;
     place-items: center;
 }
 .text2 {
     width: 1171px;
-    height: 2307px;
     margin-top: 28px;
     position :relative;
 }
 .main-left {
     width: 822px;
-    height: 100%;
     float: left;
     
 }
@@ -316,24 +306,23 @@ a {
     left:861px;
     width:100%;
     float: right;
-    height: 2309px;
+    height: 2308px;
     background-color: white;
     border-top-left-radius: 5px;
 }
 .card1 {
-    width: 100%;
     background-color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin-bottom: 1px;
 }
 .card1-image{
     background-image: url("images/img7.jpg");
     background-position: center;
     background-size:cover;
-    height: 420px;
-    overflow: auto;
-    position:relative;
+    height: 421px;
+    position: relative;
 }
 .play-button{
     position: absolute;
@@ -342,16 +331,16 @@ a {
 }
 .lifestyle-left {
     position: absolute;
-    top: 390px;
-    left: 19px;
+    bottom:17px;
+    left: 18px;
     color: white;
     font-size:12px;
     font-weight: 500;
 }
 .lifestyle-right {
     position: absolute;
-    right: 20px;
-    top: 387px;
+    right: 21px;
+    bottom:16px;
     font-size: 13px;
 }
 .lifestyle-right-comment {
@@ -373,18 +362,18 @@ a {
     font-size: 15px;
 }
 .things10 {
-    height:93px;
+    padding: 15px 0px 14px 20px;
     border-bottom: 1px solid rgb(221, 221, 221);
 }
 .things101{
-    margin: 15px 0px 0px 20px;
+    margin: 0;
     color: black;
     font-size:18px;
     font-weight: 700;
     letter-spacing: 0.5px;
 }
 .things102 {
-    margin:6px 0px 0px 20px;
+    margin:6px 0px 0px 0px;
     color: black;
     font-family: 'Open Sans';
     font-size:16px;
@@ -395,13 +384,13 @@ a {
     display: flex;
 }
 .author-photo {
-    margin: 20px 11px 21px 20px;
+    margin: 20px 10px 0px 20px;
     background-image: url('images/img4.png');
+    background-repeat: no-repeat;
     width: 50px;
-    height: 50px;
 }
 .author-text{
-    margin-top: 25px;
+    margin: 25px 0px 25px 0px;
 }
 .author-text-name {
     font-size: 14px;
@@ -424,10 +413,10 @@ a {
 }
 .card2 {
     margin-top: 21px;
-    margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
+    background-color: white;
 }
 .card2-image {
     background-image: url("images/img5.jpg");
@@ -436,12 +425,12 @@ a {
 }
 .card2-play-button {
     position: absolute;
-    top: 64px;
+    top: 63px;
     left: 110px;
 }
 .card2-inspiration-left{
     position: absolute;
-    top: 134px;
+    bottom:17px;
     left: 18px;
     color: white;
     font-size:12px;
@@ -450,7 +439,7 @@ a {
 .card2-inspiration-right{
     position: absolute;
     right: 20px;
-    top: 133px;
+    bottom:17px;
     color: white;
     font-size: 13px;
 }
@@ -464,13 +453,10 @@ a {
     font-size: 14px;
     margin-right:3px;
 }
-.card2-content {
-    width: 560px;
-    background-color: white;
-}
 .card2-text {
     border-bottom: 1px solid rgb(221,221,221);
     padding-bottom: 14px;
+    padding-right:22px;
 }
 .card2-text1{
     margin: 10px 0px 0px 18px;
@@ -503,10 +489,10 @@ a {
 }
 .card3 {
     margin-top: 21px;
-    margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
     border-radius:5px;
+    background-color: white;
 }
 .card3-image {
     background-image: url("images/img6.jpg");
@@ -525,14 +511,12 @@ a {
 }
 .card4 {
     margin-top: 20px;
-    margin-left: 1px;
     display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
 }
 .card4-image {
     background-image: url("images/img8.jpg");
-    height: 165px;
     width: 260px;
     position: relative;
 }
@@ -575,6 +559,21 @@ a {
     position: absolute;
     top: 60px;
     left: 110px;
+}
+.card5-inspiration-left{
+    position: absolute;
+    bottom:12px;
+    left: 18px;
+    color: white;
+    font-size:12px;
+
+}
+.card5-inspiration-right{
+    position: absolute;
+    right: 20px;
+    bottom:12px;
+    color: white;
+    font-size: 13px;
 }
 .card5-text {
     padding-bottom: 24px;
@@ -646,7 +645,7 @@ a {
 .card7-arrow-left {
     background-image: url("images/img11.jpg");
     height: 36px;
-    width:36px;
+    width: 36px;
     margin-top: 59px;
     float: left;
     margin-left:10px;
@@ -654,7 +653,7 @@ a {
 .card7-arrow-right {
     background-image: url("images/img13.jpg");
     height: 36px;
-    width:36px;
+    width: 36px;
     margin-top:59px;
     float: right;
     margin-right:10px;
@@ -699,7 +698,7 @@ a {
 }
 .card8-inspiration-left {
     position: absolute;
-    top: 268px;
+    bottom: 18px;
     left: 18px;
     color: white;
     font-size:12px;
@@ -708,7 +707,7 @@ a {
 .card8-inspiration-right {
     position: absolute;
     right: 21px;
-    top: 266px;
+    bottom: 17px;
     color: white;
     font-size: 13px;
 }
@@ -733,7 +732,6 @@ a {
 }
 .card8-author {
     display: flex;
-    height: 80px;
 }
 .card8-author-photo {
     margin: 15px 9px 15px 19px;
@@ -773,7 +771,7 @@ a {
 }
 .show-more {
     float: right;
-    margin-top:42px;
+    margin:42px 0px 44px 0px;
 }
 .more {
     display: inline-block;
@@ -793,13 +791,12 @@ a {
 }
 .search-container{
     margin: 24px 0px 0px 42px;
-    height: 33px;
     border-radius: 30px;
     padding: 5px 0px 4px 8px;
     background-color: rgb(245,245,245);
     display: flex;
     justify-content: right;
-    width: 260px;
+    width: 259px;
 }
 .search-input{
     background: transparent;
@@ -819,7 +816,7 @@ a {
     margin-right: 4px;
 }
 .categories-list {
-    margin: 27px 0px 0px 39px;
+    margin: 27px 0px 0px 38px;
     font-size: 18px;
     font-weight: 800;
     color: rgb(63,81,181);
@@ -858,7 +855,7 @@ a {
     padding: 9px 0px 10px 0px; 
 }
 .subscribe {
-    margin: 30px 0px 0px 41px;
+    margin: 30px 0px 0px 40px;
     font-size: 18px;
     font-weight: 800;
     color: rgb(63,81,181);
@@ -964,7 +961,7 @@ a {
     width: 270px;
 }
 .rp-post {
-    margin: 18px 0px 6px 3px;
+    margin: 18px 0px 6px 1px;
     border: 1px solid #3f51b5;
     background-color: #3f51b5;
     border-radius: 5px;
@@ -988,7 +985,6 @@ a {
     color: white;
 }
 .tabpost-card1 {
-    height: 80px;
     margin-top: 14px;
     margin-left: 2px;
     display: flex;
@@ -996,13 +992,14 @@ a {
 }
 .tabpost-card1 .content {
     width: 155px;
-    margin-left: 14px;
+    margin-left: 13px;
     margin-top: -3px;
 }
 .tabpost-card1 .content .date {
     font-family: 'Open Sans';
     font-size: 12px;
     width: 155px;
+    margin-bottom: 3px;
 }
 .tabpost-card1 .content .text {
     font-family: 'Open Sans';
@@ -1010,7 +1007,6 @@ a {
     font-size: 14px;
     font-weight: 700;
     width: 155px;
-    margin-top: 3px;
     letter-spacing: 0.5px;
 }
 .tabpost-comment {
@@ -1029,14 +1025,14 @@ a {
     width: 270px;
 }
 .tags{
-    margin: 47px 0px 0px 40px; 
+    margin: 46px 0px 0px 40px; 
     font-size: 18px;
     font-weight: 800;
     color: rgb(63,81,181);
 }
 .tags hr{
     border: 0.5px solid rgb(174, 195, 255);
-    margin: 6px 0px 0px 2px;
+    margin: 6px 0px 0px 0px;
     width: 270px;
 }
 .tag-container{
@@ -1064,7 +1060,6 @@ a {
 }
 .f-img2{
     background-image: url("images/img22.jpg");
-    height:199px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -1074,6 +1069,7 @@ a {
 }
 .f-img2-text{
     width:1170px;
+    margin: 76px 0px;
 }
 .sub{
     display:inline-block;
@@ -1106,7 +1102,6 @@ a {
     vertical-align: super;
 }
 .f-container{
-    height: 540px;
     width: 100%;
     background-color: #212121;
     display: grid;
@@ -1114,13 +1109,11 @@ a {
 }
 .f-container-text{
     width:1170px;
-    height:100%;
     display: flex;
     flex-direction: row;
 }
 .f-container-text .pages {
-    margin-top: 45px;
-    margin-left: -1px;
+    margin: 45px 0px 76px -1px;
 }
 .pages-widget{
     color: white;
@@ -1242,7 +1235,7 @@ a {
 }
 .f-container-text .flickr {
     margin-top: 45px;
-    margin-left: 28px;
+    margin-left: 29px;
 }
 .flickr-widget{
     color: white;
@@ -1305,14 +1298,12 @@ a {
     letter-spacing: 0.8px;
 }
 .f-nav{
-    height:80px;
     width:100%;
     background-color: #303030;
     display: grid;
     place-items: center;
 }
 .f-nav-text{
-    height: 100%;
     width:1170px;
     display: flex;
     align-items:center;
@@ -1334,7 +1325,7 @@ a {
     float: right;
 }
 .f-search-container{
-    margin: -1px 66px 0px 137px;
+    margin: 22px 66px 23px 137px;
     height: 33px;
     border-radius: 30px;
     border: 1px solid #7f7f7f;
